@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="./media/Pharmaceutical_Logo.png" type="image/x-icon">
+  <title>Cure Med</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- header cta -->
+    <div class="row header-cta bg-dark-navy-blue">
+      <div class="col-md-4">
+        <a class="text-decoration-none text-light" href="tel:+12 123 4567"><i class="fa-solid fa-phone"
+            style="color: #ffffff;"></i> +12 123 4567</a>
+        <a class="text-decoration-none text-light mx-2" href="htmlto:favorite@doctor.com"><i
+            class="fa-sharp fa-solid fa-envelope" style="color: #ffffff;"></i>
+          favorite@doctor.com</a>
+      </div>
+      <div class="col-md-4"></div>
+      <div class="col-md-3 d-flex justify-content-end">
+        <a class="text-decoration-none text-light" href="https:/www.facebook.com"><i
+            class="fa-brands fa-facebook-f social-icons"></i></a>
+        <a class="text-decoration-none text-light" href="https:/www.instagram.com"><i
+            class="fa-brands fa-instagram social-icons"></i></a>
+        <a class="text-decoration-none text-light" href="https:/www.twitter.com"><i
+            class="fa-brands fa-twitter social-icons"></i></a>
+        <a class="text-decoration-none text-light" href="https:/www.linkedin.com"><i
+            class="fa-brands fa-linkedin-in social-icons"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- navigation menu -->
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-5 font-family-inter" href="./index.html">
+            <img src="./media/company_logo.png">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link text-dark active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="./services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="./products.html">Products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Company
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./aboutus.html">About Us</a></li>
+                  <li><a class="dropdown-item" href="./contact.html">Contact Us</a></li>
+                  <li><a class="dropdown-item" href="./career.html">Career</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="d-flex justify-content-end">
+              <a class="brand-btn text-white bg-sky-blue font-family-inter text-decoration-none" href="./contact.html">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Picture with Introduction -->
+  <div class="container-fluid home-banner">
+    <div class="row home-banner-img">
+      <div class="col-md-1"></div>
+      <div class="col-md-4 pb-5 mb-5" id="tagline">
+        <h2 class="pt-5 text-white fw-600">Innvoting Health, Improving Lives</h2>
+        <p class="p-inter font-family-inter fw-500 tagline-description">
+          We are a leading pharmaceutical company dedicated to developing high-quality healthcare solutions that enhance
+          the well-being of individuals and communities worldwide. Explore our range of products and services designed
+          with innovation and care.
+        </p>
+        <a id="service-btn" href="./services.html" class="text-decoration-none">Explore Our Services</a>
+        <a id="product-btn" href="./products.html" class="text-decoration-none">Our Products</a>
+      </div>
+      <div class="col-md-4"></div>
+      <div class="col-md-3"></div>
+
+      <div class="row mt-5 bg-light">
+        <div class="col-md-11 shadow mx-auto" id="service-section">
+          <div class="row">
+            <div class="col-md-5 p-5">
+              <h4 id="service-heading font-family-poppins fw-600">Our Services</h4>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6 p-5">
+              <p id="service-description">Our services are tailored to support healthcare professionals and clients
+                alike.
+                Whether it's product consultation, healthcare training, or patient support programs, we offer a range of
+                services to enhance
+                the healthcare experience.
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card border-none">
+                <img src="./media/service_1.png">
+                <div class="card-body">
+                  <h6 class="card-title">Product Consultation</h6>
+                  <p class="card-text">Expert advice on choosing the right pharmaceuticals for your healthcare needs.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-none">
+                <img src="./media/service_2.png">
+                <div class="card-body">
+                  <h6 class="card-title">Healthcare Training Programs</h6>
+                  <p class="card-text">Expert advice on choosing the right pharmaceuticals for your healthcare needs.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-none">
+                <img src="./media/service_3.png">
+                <div class="card-body">
+                  <h6 class="card-title">Patient Support Program</h6>
+                  <p class="card-text">Expert advice on choosing the right pharmaceuticals for your healthcare needs.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-none">
+                <img src="./media/service_4.png">
+                <div class="card-body">
+                  <h6 class="card-title">Patient Support Program</h6>
+                  <p class="card-text">Expert advice on choosing the right pharmaceuticals for your healthcare needs.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <!-- our products -->
+    <div class="row">
+      <div class="col-md-11 mx-auto">
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-md-5 p-5">
+            <h2 id="product-heading font-family-poppins">Our Products</h2>
+            <p id="product-description">Find out the description, usage and benefits</p>
+          </div>
+          <div class="col-md-4"></div>
+          <div class="col-md-3 p-5">
+            <a href="./products.html" class="brand-btn text-white bg-sky-blue fw-600 text-decoration-none">Explore
+              Products</a href="./products.html">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="home-products-card">
+              <img src="./media/paracetamol.png" alt="" class="style-product-card-img">
+              <h5 class="text-dark-gray font-family-inter fw-600">Paracetamol</h5>
+              <p class="text-medium-dark-gray fw-400 line-height-24">Relieves pain and reduces fever. Essential for everyday health.</p>
+              <p class="font-family-inter fw-600 text-sky-blue" style="line-height: 19.36px;">Learn More</p>
+            </div>
+          </div>
+
+
+          <div class="col-md-3">
+            <div class="home-products-card">
+              <img src="./media/ibrufen.jpeg" alt="" class="style-product-card-img">
+              <h5 class="text-dark-gray font-family-inter fw-600">Ibuprofen</h5>
+              <p class="text-medium-dark-gray fw-400 line-height-24">
+                NSAID used for pain relief and to ease inflammation effectively.
+              </p>
+              <p class="font-family-inter fw-600 text-sky-blue" style="line-height: 19.36px;">Learn More</p>
+            </div>
+          </div>
+
+
+          <div class="col-md-3">
+            <div class="home-products-card">
+              <img src="./media/Amoxicillin.jpeg" alt="" class="style-product-card-img">
+              <h5 class="text-dark-gray font-family-inter fw-600">Amoxicillin</h5>
+              <p class="text-medium-dark-gray fw-400 line-height-24">
+                Broad-spectrum antibiotic for treating bacterial infections.
+              </p>
+              <p class="font-family-inter fw-600 text-sky-blue" style="line-height: 19.36px;">Learn More</p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="home-products-card">
+              <img src="./media/risek.jpg" alt="" class="style-product-card-img">
+              <h5 class="text-dark-gray font-family-inter fw-600">Risek</h5>
+              <p class="text-medium-dark-gray fw-400 line-height-24">
+                Assists in managing stomach acidity and related discomfort.
+              </p>
+              <p class="font-family-inter fw-600 text-sky-blue" style="line-height: 19.36px;">Learn More</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <div class="container-fluid">
+    <div class="row mt-5"></div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-between align-items-center">
+      <div class="col-md-1"></div>
+
+      <div class="col-md-5">
+        <img src="./media/home_about_picture.png" alt="" class="img-fluid" height="500px" width="500px">
+      </div>
+      <div class="col-md-4">
+        <p id="about-us-text">About Us</p>
+        <h5>
+          Pioneering healthcare solutions for a healthier tomorrow. Transforming patient care with trust and innovation.
+        </h5>
+        <p>At Cure Med, we are dedicated to transforming healthcare and enhancing patient outcomes worldwide.
+          With a strong foundation in trust, quality, and innovation, we strive to address the evolving challenges faced
+          by healthcare providers and patients. Our team of experts is committed to developing safe, effective, and
+          accessible pharmaceutical solutions that improve lives. Join us on our journey to foster a healthier world.
+        </p>
+        <button class="brand-btn text-white bg-sky-blue">Learn More</button>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+
+  <div class="container-fluid" id="vision-bg-image">
+    <div class="row">
+      <div class="col-md-6 mx-auto text-center">
+        <p class="text-dark-navy-blue font-family-plus-jakarta-sans" style="line-height: 20.16px;">About Us</p>
+        <h4 class="text-dark-gray font-family-poppins fs-36 fw-600" style="line-height: 43.2px;">We Are The Most Trusted
+          Pharmacy In This Town</h4>
+        <p class="text-medium-dark-gray font-family-inter fw-400 line-height-24" style="text-align: justify;">At Cure
+          Med, our mission is to improve
+          the health and well-being of individuals and communities
+          through innovative pharmaceutical solutions. We are committed to quality, integrity, and excellence in
+          everything we do.</p>
+      </div>
+    </div>
+
+    <div class="row d-flex justify-content-between align-items-center mt-5 p-5">
+      <div class="col-md-3 style-vision-card shadow">
+        <img src="./media/quality_assurance.png" alt="" height="80px" width="80px">
+        <h5>Quality</h5>
+        <p>Committed to providing top-quality pharmaceuticals.</p>
+      </div>
+
+      <div class="col-md-3 style-vision-card shadow">
+        <img src="./media/expertise.png" alt="" height="80px" width="80px">
+        <h5>Expertise</h5>
+        <p>Decades of experience in the healthcare industry.</p>
+      </div>
+
+      <div class="col-md-3 style-vision-card shadow">
+        <img src="./media/customer_support.png" alt="" height="80px" width="80px">
+        <h5>Customer Support</h5>
+        <p>Dedicated support for healthcare professionals and clients.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid p-5">
+    <div class="row d-flex justify-content-between align-items-center">
+      <div class="col-md-1"></div>
+      <div class="col-md-4">
+        <p class="font-family-plus-jakarta-sans fw-600 text-cobalt-blue">Our Vision</p>
+        <p>
+          With over 15 years of expertise, our team combines dedication and deep knowledge to drive advancements in
+          healthcare. Our experience enables us to deliver innovative, reliable solutions tailored to meet the diverse
+          needs of patients and healthcare providers alike.
+        </p>
+      </div>
+      <!-- <div class="col-md-2"></div> -->
+      <div class="col-md-7">
+        <img src="./media/yearsOfExperience.png" alt="" class="img-fluid shadow"
+          style="height: 400px; width: 500px; object-fit: cover;">
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-5">
+    <div class="row d-flex justify-content-between align-items-center">
+      <div class="col-md-6">
+        <img src="./media/family_medical.png" alt="" id="medical-family-img">
+      </div>
+      <div class="col-md-6 p-5" id="progress-bar">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h3>
+              We care beyond what your doctors have prescribed
+            </h3>
+            <p>Inceptos viverra dignissim rhoncus consectetur diam vivamus platea. Commodo lectus arcu habitant mus
+              tempus nulla ex sociosqu eros.</p>
+            <div class="row">
+              <div class="col-md-4">
+                <h5>130</h5>
+                <p>Experience</p>
+              </div>
+              <div class="col-md-4">
+                <h5>130</h5>
+                <p>Experience</p>
+              </div>
+              <div class="col-md-4">
+                <h5>130</h5>
+                <p>Experience</p>
+              </div>
+              <div class="col-md-12">
+                <hr>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid cta-img text-light">
+    <div class="row mt-5">
+      <div class="col-md-1"></div>
+      <div class="col-md-6">
+        <h3 class="font-family-poppins fw-600" style="font-size: 36px; line-height: 43.2px;">Really nice CTA to action
+        </h3>
+        <p class="opacity-80-percent font-family-inter fw-400 line-height-24">We invite you to learn more about our
+          products and services. For inquiries or more information, please reach
+          out to us via our contact page</p>
+        <a class="brand-btn bg-sky-blue text-light text-decoration-none" href="./services.html">Explore Our Services</a>
+        <a class="mx-2 brand-btn text-sky-blue text-decoration-none bg-light" href="./products.html">Our Products</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-midnight-blue">
+    <div class="row footer-navigation">
+      <div class="col-md-1"></div>
+      <div class="col-md-3">
+        <img src="./media/footer_logo.png" alt="">
+        <p class="font-family-inter fw-400 fs-14 text-light mt-4">
+          Explore our range of products and services designed
+          with innovation and care.
+        </p>
+      </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-1 nav-options">
+        <h5 class="text-light font-family-inter fw-700 footer-nav-line-height">Explore</h5>
+        <a href="./index.html"
+          class="text-decoration-none text-light font-family-inter fw-400 fs-14 line-height-17">Home</a>
+        <a href="./products.html"
+          class="text-decoration-none text-light font-family-inter fw-400 fs-14 line-height-17">Products</a>
+        <a href="./services.html"
+          class="text-decoration-none text-light font-family-inter fw-400 fs-14 line-height-17">Services</a>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-1 nav-options">
+        <h5 class="text-light font-family-inter fw-700 footer-nav-line-height">Company</h5>
+        <a href="./aboutus.html"
+          class="text-decoration-none text-light font-family-inter fw-400 fs-14 line-height-17">About Us</a>
+        <a href="./career.html"
+          class="text-decoration-none text-light font-family-inter fw-400 fs-14 line-height-17">Career</a>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-2 nav-options">
+        <h5 class="text-light font-family-inter fw-700 footer-nav-line-height">Contact</h5>
+        <a href="tel:923082491543"
+          class="text-decoration-none text-light font-family-inter fw-400 fs-14 line-height-17">+923041234567</a>
+        <a href="mailto:favorite@doctor.com"
+          class="text-decoration-none text-light font-family-inter fw-400 fs-14 line-height-17">favorite@doctor.com</a>
+        <a href="https://www.google.com/maps/place/Canada/data=!4m2!3m1!1s0x4b0d03d337cc6ad9:0x9968b72aa2438fa5?sa=X&ved=1t:242&ictx=111"
+          class="text-decoration-none text-light font-family-inter fw-400 fs-14 line-height-17">Glassplace,
+          Near
+          Cool Avenue, Boson</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-white ">
+    <div class="row last-footer">
+      <div class="col-md-1"></div>
+      <div class="col-md-4">
+        <small class="font-family-inter fs-14 line-height-17 fw-500 text-charcoal-blue">All Right Reserved. CureMed
+          2024</small>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-4 text-sm-center">
+        <a href="" class="text-decoration-none font-family-inter fs-14 line-height-17 fw-500 text-charcoal-blue">Terms &
+          Conditions</a>
+        <a href="" class="text-decoration-none font-family-inter fs-14 line-height-17 fw-500 text-charcoal-blue">Privacy
+          Policy</a>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="./JS/script.js"></script>
+
+
+</body>
+
+</html>

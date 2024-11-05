@@ -1,0 +1,654 @@
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.custom-spacing {
+  margin-top: 500px;
+}
+
+/* -------------------------- Font Family Custom Classes -------------------------- */
+.font-family-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-family-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.font-family-plus-jakarta-sans {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600px;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-36 {
+  font-size: 36px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+/* -------------------------- Text Custom Classes -------------------------- */
+.text-cobalt-blue {
+  color: #0d579b;
+}
+
+.text-dark-navy-blue {
+  color: #0e355d;
+}
+
+.text-sky-blue {
+  color: #0086ff;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-midnight-blue {
+  color: #031e38;
+}
+
+.text-charcoal-blue {
+  color: #051527;
+}
+
+.text-dark-gray {
+  color: #1b1e21;
+}
+
+.text-medium-dark-gray {
+  color: #494b4d;
+}
+
+/* -------------------------- Background Color Custom Classes -------------------------- */
+
+.bg-cobalt-blue {
+  background-color: #0d579b;
+}
+
+.bg-dark-navy-blue {
+  background-color: #0e355d;
+}
+
+.bg-sky-blue {
+  background-color: #0086ff;
+}
+
+.bg-midnight-blue {
+  background-color: #031e38;
+}
+
+.bg-white {
+  background-color: white;
+}
+/* -------------------------- Opacity -------------------------- */
+
+.opacity-80-percent {
+  opacity: 0.8;
+}
+
+/* -------------------------- Line Height -------------------------- */
+.line-height-24 {
+  line-height: 24px;
+}
+
+.line-height-21 {
+  line-height: 21px;
+}
+
+.line-height-17 {
+  line-height: 16.94px;
+}
+
+.mt-250 {
+  margin-top: 250px;
+}
+
+.h-44 {
+  height: 44px;
+}
+
+.w-120 {
+  width: 120px;
+}
+/* -------------------------- ******** -------------------------- */
+
+.social-icons {
+  height: 21px;
+  width: 21px;
+  color: white;
+}
+
+.header-cta {
+  /* height: 30px; */
+  padding: 10px 100px 10px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.home-banner {
+  height: 1100px;
+  margin-bottom: 50px;
+}
+.home-banner-img {
+  height: 700px;
+  background-image: url("./media/HeroBanner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: -8px;
+  left: -8px;
+  /* width: 1380px; */
+}
+
+.brand-btn {
+  padding: 10px 16px;
+  border-radius: 53px;
+  border: none;
+  line-height: 19.36px;
+}
+
+#tagline > h2 {
+  font-size: 4rem;
+  line-height: 57.6px;
+}
+
+.tagline-description {
+  font-weight: light;
+  color: white;
+}
+
+.p-inter {
+  font-size: 1.2rem;
+  line-height: 27px;
+  opacity: 0.8;
+}
+
+#display-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#service-section {
+  background-color: white;
+  border-radius: 5px;
+  padding-bottom: 100px;
+}
+
+#service-heading {
+  /* font-weight: 600; */
+  font-size: 40px;
+  line-height: 48px;
+}
+
+#service-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.navbar-toggler {
+  border-color: #0e355d;
+  /* Change the border color of the button */
+  background-color: #0e355d;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+#service-btn {
+  background-color: #0086ff;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 53px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 19.36px;
+}
+
+#product-btn {
+  background-color: white;
+  color: #0086ff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 19.36px;
+}
+
+.border-none {
+  border: none;
+}
+
+#product-heading {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43.2px;
+}
+
+#product-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#about-us-text {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+#display-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#display-products > .card {
+  height: 300px;
+  width: 250px;
+  margin: 10px;
+}
+
+#display-services > .card {
+  height: 300px;
+  width: 265px;
+  margin: 10px;
+}
+
+.vision-image-index {
+  background-image: url("./media/vision.png");
+  height: 750px;
+  padding: 112px 190px;
+}
+
+#vision-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.vision-card {
+  background-color: #ffffff;
+  height: 327px;
+  width: 303.67px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vision-card-heading {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25.91px;
+  line-height: 32.65px;
+  text-align: center;
+}
+
+.vision-card-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.vision-card-img {
+  height: 113px;
+  width: 113px;
+}
+
+#medical-family-img {
+  height: 536px;
+  width: 700px;
+  position: relative;
+  top: 62px;
+  left: -21px;
+}
+
+#progress-bar {
+  background-color: #f5f6fa;
+  height: 536px;
+  position: relative;
+  top: 62px;
+}
+
+.cta-img {
+  background-image: url("/media/cta_bg_img.png");
+  background-size: cover;
+  height: 372px;
+  padding: 80px 96px;
+}
+
+.footer-navigation {
+  padding: 110px 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav-line-height {
+  line-height: 19.36px;
+}
+
+.last-footer {
+  height: 49px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.home-products-card {
+  height: 366px;
+  width: 268px;
+  border: 1px solid #00000033;
+  padding: 12px 12px 18px 12px;
+}
+
+.style-product-card-img {
+  height: 185px;
+  width: 244px;
+  object-fit: cover;
+}
+/* --------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------ *** About Us Page *** ---------------------------------- */
+#about-bg-img-with-text {
+  background-image: url("./media/AboutUs_Banner.png");
+  background-size: cover;
+  height: 333px;
+  width: 100%;
+}
+/* #about-bg-img-with-text img {
+  max-width: 100%;
+  height: auto;
+} */
+
+.img-text {
+  position: absolute;
+  top: 25%;
+}
+
+#about-us-heading {
+  font-size: 48px;
+  line-height: 57.6px;
+}
+
+#about-us-text {
+  opacity: 0.8;
+  line-height: 27px;
+}
+
+#vision-bg-image {
+  background-image: url("./media/bg_dot_pannel.png");
+  margin-top: 100px;
+  height: 800px;
+  max-width: 1440px;
+  padding: 112px 100px;
+}
+
+.style-vision-card {
+  height: 300px;
+  width: 275px;
+  border-radius: 20px;
+  padding: 32px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#service-bg-img-with-text {
+  background-image: url("./media/service_banner.png");
+  background-size: cover;
+  height: 333px;
+  width: 100%;
+}
+
+#product-bg-img-with-text {
+  background-image: url("./media/Product_banner.png");
+  background-size: cover;
+  height: 333px;
+  width: 100%;
+}
+
+#contact-us-card {
+  width: 675px;
+  height: 506px;
+  border-radius: 12px;
+  padding: 32px;
+  background-color: #f5f6fa;
+}
+
+.input-style {
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.textarea-style {
+  padding: 16px;
+}
+
+/* ------------------------------------ *** End *** ---------------------------------- */
+
+/* ------------------------------------ *** Media Query Start *** ---------------------------------- */
+/* max-width: 600px - Extra Small Device -> All those screen which width is below than 600px */
+@media only screen and (max-width: 600px) {
+  body {
+    /* background-color: red; */
+  }
+
+  .home-banner {
+    height: 2650px;
+    margin-bottom: 50px;
+  }
+
+  .home-banner-img {
+    width: 375px;
+  }
+
+  .header-cta {
+    height: 120px;
+    /* max-width: 600px; */
+  }
+
+  #tagline > h2 {
+    font-size: 2.8rem;
+  }
+
+  .tagline-description {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .home-products-card {
+    height: 200px;
+    width: 330px;
+    margin: 50px 2px;
+  }
+
+  .style-product-card-img {
+    width: 320px;
+    object-fit: cover;
+  }
+
+  .custom-spacing {
+    margin-top: 1750px;
+  }
+  .vision-image-index {
+    height: 2000px;
+  }
+
+  .nav-options {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  #vision-bg-image {
+    margin-top: 10px;
+    height: 1550px;
+  }
+
+  .style-vision-card {
+    height: 275px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  #contact-us-card {
+    width: 450px;
+    height: 506px;
+    margin: 10px auto;
+  }
+
+  .cta-img {
+    background-image: url("/media/cta_bg_img.png");
+    background-size: cover;
+    height: 372px;
+    padding: 20px 15px;
+  }
+
+  #medical-family-img {
+    width: 400px;
+  }
+}
+
+/* min-width: 600px and up - Potrait tablets and large phones */
+@media only screen and (min-width: 600px) {
+  body {
+    /* background-color: black; */
+  }
+  .header-cta {
+    height: 65px;
+  }
+
+  #tagline > h2 {
+    font-weight: 600;
+    font-size: 2.9rem;
+    line-height: 57.6px;
+    color: white;
+  }
+
+  .p-inter {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 27px;
+    opacity: 0.8;
+  }
+
+  .custom-spacing {
+    margin-top: 1650px;
+  }
+
+  #product-heading {
+    margin-top: 150px;
+  }
+
+  .home-banner-img {
+    height: 700px;
+    background-image: url("./media/HeroBanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -8px;
+    left: -8px;
+    /* width: 600px; */
+  }
+}
+
+/* min-width: 768px - Medium Devices such as Landscape tablets */
+@media only screen and (min-width: 768px) {
+  body {
+    /* background-color: pink; */
+  }
+  .custom-spacing {
+    margin-top: 1050px;
+  }
+
+  .home-banner-img {
+    height: 700px;
+    background-image: url("./media/HeroBanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -8px;
+    left: -8px;
+    /* width: 768px; */
+  }
+}
+
+/* min-width: 992px - Laptop or Desktop screen */
+@media only screen and (min-width: 992px) {
+  body {
+    /* background-color: orange; */
+  }
+
+  .custom-spacing {
+    margin-top: 900px;
+  }
+  .home-banner-img {
+    height: 700px;
+    background-image: url("./media/HeroBanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -8px;
+    left: -8px;
+    /* width: 992px; */
+  }
+}
+
+/* min-with: 1200px - Large laptop or desktop screen */
+@media only screen and (min-width: 1200px) {
+  body {
+    /* background-color: rgb(209, 197, 209); */
+  }
+  .header-cta {
+    height: 40px;
+  }
+  .home-banner-img {
+    height: 700px;
+    background-image: url("./media/HeroBanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -8px;
+    left: -8px;
+    /* width: 1380px; */
+  }
+  .custom-spacing {
+    margin-top: 400px;
+  }
+}
+
+/* ------------------------------------ *** Media Query End *** ---------------------------------- */
